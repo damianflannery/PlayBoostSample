@@ -22,13 +22,11 @@ public class HelloPlayBoost extends Activity {
 
 			@Override
 			public void onClick(View v) {
-				// TODO Auto-generated method stub
+				
 				Intent intent = new Intent(HelloPlayBoost.this, PlayBoostOffersActivity.class);
 		        intent.putExtra(PlayBoost.API_KEY, "5ac53b81f56c22a-e4da3b7fbbce2345d777-5032087c45af");
 		        intent.putExtra(PlayBoost.APP_ID, "5");
-		        intent.putExtra(PlayBoost.USER_ID, "1");
-		        
-				
+		        intent.putExtra(PlayBoost.USER_ID, "1");		
 				startActivity(intent);
 			}
         	

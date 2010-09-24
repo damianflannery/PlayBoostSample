@@ -26,9 +26,10 @@
 
 		<activity
 			android:name="com.playboost.android.PlayBoostOffersActivity"
-			android:label="Complete Offer"
 			android:configChanges="keyboardHidden|orientation" />
 
+		<activity android:name="com.playboost.android.PlayBoostSupportActivity" />	
+		
 	</application>
 	<uses-sdk
 		android:minSdkVersion="4" />
