@@ -30,6 +30,7 @@
 
 		<activity android:name="com.playboost.android.PlayBoostSupportActivity" />	
 		
+		<activity android:name="com.playboost.android.PlayBoostOfferDetailActivity" />	
 	</application>
 	<uses-sdk
 		android:minSdkVersion="4" />
